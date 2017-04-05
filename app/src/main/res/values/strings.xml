@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">ItalianVerbStudyFlashCards</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_main_fragment">Hello main fragment</string>
+
+
+    <string name="lbl_1st">io</string>
+    <string name="lbl_2nd">tu</string>
+    <string name="lbl_3rd">lui/lei</string>
+    <string name="lbl_1pl">noi</string>
+    <string name="lbl_2pl">voi</string>
+    <string name="lbl_3pl">loro</string>
+
+    <!-- Present Tense -->
+    <string name="pres_toolbar">Present</string>
+    <string name="pres_example">Lui <b><i>parla</i></b> molto dei suoi genitori, vero?</string>
+    <string name="pres_1st_ind">parl<b><i>o</i></b></string>
+    <string name="pres_2nd_ind">parl<b><i>i</i></b></string>
+    <string name="pres_3rd_ind">parl<b><i>a</i></b></string>
+    <string name="pres_1pl_ind">parl<b><i>iamo</i></b></string>
+    <string name="pres_2pl_ind">parl<b><i>ate</i></b></string>
+    <string name="pres_3pl_ind">parl<b><i>ano</i></b></string>
+
+    <!-- Present Perfect Tense -->
+    <string name="pres_per_toolbar">Present Perfect</string>
+    <string name="pres_per_example">Lui <b><i>ha parlato</i></b> molto dei suoi genitori, vero?</string>
+    <string name="pres_per_1st_ind">ho parlato</string>
+    <string name="pres_per_2nd_ind">hai parlato</string>
+    <string name="pres_per_3rd_ind">ha parlato</string>
+    <string name="pres_per_1pl_ind">abbiamo parlato</string>
+    <string name="pres_per_2pl_ind">avete parlato</string>
+    <string name="pres_per_3pl_ind">hanno parlato</string>
+
+
+    <!-- Imperfect Tense -->
+    <string name="imp_toolbar">Imperfect</string>
+    <string name="imp_example"><b><i>Parlavate</i></b> di una visione di Kylaah.</string>
+    <string name="imp_1st_ind">parl<b><i>avo</i></b></string>
+    <string name="imp_2nd_ind">parl<b><i>avi</i></b></string>
+    <string name="imp_3rd_ind">parl<b><i>ava</i></b></string>
+    <string name="imp_1pl_ind">parl<b><i>avamo</i></b></string>
+    <string name="imp_2pl_ind">parl<b><i>avate</i></b></string>
+    <string name="imp_3pl_ind">parl<b><i>avano</i></b></string>
+
+    <!-- Imperfect with Essere -->
+    <string name="imp_essere_toolbar">Imperfect Essere</string>
+    <string name="imp_essere_example"><b><i>Erano</i></b> troppo vicini.</string>
+    <string name="imp_essere_1st_ind">er<b><i>o</i></b></string>
+    <string name="imp_essere_2nd_ind">er<b><i>i</i></b></string>
+    <string name="imp_essere_3rd_ind">er<b><i>a</i></b></string>
+    <string name="imp_essere_1pl_ind">er<b><i>avamo</i></b></string>
+    <string name="imp_essere_2pl_ind">er<b><i>avate</i></b></string>
+    <string name="imp_essere_3pl_ind">er<b><i>ano</i></b></string>
+
+    <!-- Past Perfect -->
+    <string name="past_perfect_toolbar">Past Perfect</string>
+    <string name="past_perfect_example">Avevo già parlato.</string>
+    <string name="past_perfect_1st_ind">avevo parlato</string>
+    <string name="past_perfect_2nd_ind">avevi parlato</string>
+    <string name="past_perfect_3rd_ind">aveva parlato</string>
+    <string name="past_perfect_1pl_ind">avevamo parlato</string>
+    <string name="past_perfect_2pl_ind">avevate parlato</string>
+    <string name="past_perfect_3pl_ind">avevano parlato</string>
+
+    <!-- Past Perfect with Essere -->
+    <string name="past_perfect_wEssere_toolbar">Past Perfect w/ Essere</string>
+    <string name="past_perfect_wEssere_example">Gli inglesi, <b><i>erano arrivati</i></b> a portarmi via il lago Trishan.</string>
+    <string name="past_perfect_wEssere_1st_ind">ero arrivato/-a</string>
+    <string name="past_perfect_wEssere_2nd_ind">eri arrivato/-a</string>
+    <string name="past_perfect_wEssere_3rd_ind">era arrivato/-a</string>
+    <string name="past_perfect_wEssere_1pl_ind">eravamo arrivato/-a</string>
+    <string name="past_perfect_wEssere_2pl_ind">eravate arrivato/-a</string>
+    <string name="past_perfect_wEssere_3pl_ind">erano arrivato/-a</string>
+
+    <!-- Present conditional -->
+    <string name="pres_cond_toolbar">Present Conditional</string>
+    <string name="pres_cond_example"><b><i>Erano</i></b> troppo vicini.</string>
+    <string name="pres_1st_cond">parl<i>er<b>ei</b></i></string>
+    <string name="pres_2nd_cond">parl<i>er<b>esti</b></i></string>
+    <string name="pres_3rd_cond">parl<i>er<b>ebbe</b></i></string>
+    <string name="pres_1pl_cond">parl<i>er<b>emmo</b></i></string>
+    <string name="pres_2pl_cond">parl<i>er<b>este</b></i></string>
+    <string name="pres_3pl_cond">parl<i>er<b>ebbero</b></i></string>
+
+    <!-- Past conditional -->
+    <string name="past_cond_toolbar">Past Conditional</string>
+    <string name="past_cond_example">Io <b><i>avrei mangiato</i></b> un gelato.</string>
+    <string name="past_1st_cond">avrei amato</string>
+    <string name="past_2nd_cond">avresti amato</string>
+    <string name="past_3rd_cond">avrebbe amato</string>
+    <string name="past_1pl_cond">avremmo amato</string>
+    <string name="past_2pl_cond">avreste amato</string>
+    <string name="past_3pl_cond">avrebbero amato</string>
+
+    <!-- Past conditional with essere -->
+    <string name="past_cond_essere_toolbar">Past Conditional w/Essere</string>
+    <string name="past_essere_cond_example">Noi <b><i>saremmo andati</i></b> a Milano.</string>
+    <string name="past_essere_1st_cond">sarei arrivato/-a</string>
+    <string name="past_essere_2nd_cond">saresti arrivato/-a</string>
+    <string name="past_essere_3rd_cond">sarebbe arrivato/-a</string>
+    <string name="past_essere_1pl_cond">saremmo arrivato/-a</string>
+    <string name="past_essere_2pl_cond">saresete arrivato/-a</string>
+    <string name="past_essere_3pl_cond">sarebbero arrivato/-a</string>
+
+    <!-- Future imperative -->
+    <string name="future_toolbar">Future</string>
+    <string name="future_example"><b><i>Parlerò</i></b> con il tuoi genitori.</string>
+    <string name="fut_1st_imp">dorm<i>ir<b>ò</b></i></string>
+    <string name="fut_2nd_imp">dorm<i>ir<b>ai</b></i></string>
+    <string name="fut_3rd_imp">dorm<i>ir<b>à</b></i></string>
+    <string name="fut_1pl_imp">dorm<i>ir<b>emo</b></i></string>
+    <string name="fut_2pl_imp">dorm<i>ir<b>ete</b></i></string>
+    <string name="fut_3pl_imp">dorm<i>ir<b>anno</b></i></string>
+
+    <!-- Present subjuntive -->
+    <string name="pres_subj_toolbar">Present Subjuntive</string>
+    <string name="pres_subj_example">Spero che voi <b><i>dormiate</i></b>.</string>
+    <string name="pres_1st_subj">dorm<b><i>a</i></b></string>
+    <string name="pres_2nd_subj">dorm<b><i>a</i></b></string>
+    <string name="pres_3rd_subj">dorm<b><i>a</i></b></string>
+    <string name="pres_1pl_subj">dorm<b><i>iamo</i></b></string>
+    <string name="pres_2pl_subj">dorm<b><i>iate</i></b></string>
+    <string name="pres_3pl_subj">dorm<b><i>ano</i></b></string>
+
+
+</resources>

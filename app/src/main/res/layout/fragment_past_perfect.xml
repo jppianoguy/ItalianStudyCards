@@ -1,0 +1,198 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.PastPerfect">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="10">
+
+            <TextView
+                android:id="@+id/example"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/past_perfect_example"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="90">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom">
+
+                <TableRow
+                    android:id="@+id/First"
+                    android:layout_width="match_parent"
+
+                    android:layout_weight="1"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:id="@+id/Lbl1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="15"
+                        android:ems="10"
+
+                        android:text="@string/lbl_1st"
+                        android:textAppearance="@style/ExerciseFont" />
+
+                    <TextView
+                        android:id="@+id/sing1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="35"
+                        android:ems="10"
+
+                        android:text="@string/past_perfect_1st_ind"
+                        android:textAppearance="@style/ExerciseFont" />
+
+                    <TextView
+                        android:id="@+id/Lbl1Pl"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="15"
+                        android:ems="10"
+
+                        android:text="@string/lbl_1pl"
+                        android:textAppearance="@style/ExerciseFont" />
+
+                    <TextView
+                        android:id="@+id/plu1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="35"
+                        android:ems="10"
+
+                        android:text="@string/past_perfect_1pl_ind"
+                        android:textAppearance="@style/ExerciseFont" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Second"
+                    android:layout_width="match_parent"
+
+                    android:layout_weight="1"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:id="@+id/Lbl2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="15"
+                        android:ems="10"
+
+                        android:text="@string/lbl_2nd"
+                        android:textAppearance="@style/ExerciseFont" />
+
+                    <TextView
+                        android:id="@+id/sing2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="35"
+                        android:ems="10"
+
+                        android:text="@string/past_perfect_2nd_ind"
+                        android:textAppearance="@style/ExerciseFont" />
+
+                    <TextView
+                        android:id="@+id/Lbl2Pl"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="15"
+                        android:ems="10"
+
+                        android:text="@string/lbl_2pl"
+                        android:textAppearance="@style/ExerciseFont"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:id="@+id/plu2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="35"
+                        android:ems="10"
+
+                        android:text="@string/past_perfect_2pl_ind"
+                        android:textAppearance="@style/ExerciseFont" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Third"
+                    android:layout_width="match_parent"
+
+                    android:layout_weight="1"
+                    android:weightSum="100">
+
+
+                    <TextView
+                        android:id="@+id/lbl3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="15"
+                        android:ems="10"
+
+                        android:text="@string/lbl_3rd"
+                        android:textAppearance="@style/ExerciseFont" />
+
+                    <TextView
+                        android:id="@+id/sing3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="35"
+                        android:ems="10"
+
+                        android:text="@string/past_perfect_3rd_ind"
+                        android:textAppearance="@style/ExerciseFont" />
+
+                    <TextView
+                        android:id="@+id/Lbl3Pl"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="15"
+                        android:ems="10"
+
+                        android:text="@string/lbl_3pl"
+                        android:textAppearance="@style/ExerciseFont"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:id="@+id/plu3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="35"
+                        android:ems="10"
+
+                        android:text="@string/past_perfect_3pl_ind"
+                        android:textAppearance="@style/ExerciseFont" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </LinearLayout>
+
+
+</FrameLayout>
